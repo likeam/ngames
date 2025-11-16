@@ -10,7 +10,7 @@ type GameProps = {
 
 const GamesCard = ({ game }: GameProps) => {
   return (
-    <div className=" bg-gray-700 text-white p-4 rounded-lg shadow-md">
+    <div className=" bg-gray-800 text-white p-4 rounded-lg shadow-md">
       <img
         src={game.img}
         alt="gameimage"
