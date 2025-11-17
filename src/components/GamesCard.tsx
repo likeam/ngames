@@ -16,7 +16,7 @@ const GamesCard = ({ game }: GameProps) => {
         alt="gameimage"
         className=" w-full h-32 object-cover rounded-md"
       />
-      <h3 className=" mt-2 text-lg font-semibold">{game.name}</h3>
+      <h3 className=" mt-3 text-lg font-semibold">{game.name}</h3>
     </div>
   );
 };
